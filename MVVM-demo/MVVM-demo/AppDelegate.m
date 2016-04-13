@@ -23,6 +23,7 @@
     self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:kAppWhiteColor];
     
+    //首页
     HomeViewController *homeVC=[[HomeViewController alloc]init];
     UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:homeVC];
     [self.window setRootViewController:nav];
