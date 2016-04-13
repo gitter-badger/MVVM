@@ -10,7 +10,9 @@
 #import "HomeTableView.h"
 #import "HomeTableViewCell.h"
 #import "HomeViewModel.h"
+#import "HomeModel.h"
 #import "Define.h"
+#import "HomeDetailViewController.h"//详情页
 
 @interface HomeViewController ()
 <UITableViewDelegate,UITableViewDataSource>
@@ -72,8 +74,15 @@
     return self.dataArr.count;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    HomeModel *model=self.dataArr[indexPath.row];
+    HomeDetailViewController *homeDetailVC=[[HomeDetailViewController alloc]init];
+    [homeDetailVC setNavTitle:model.newsTitle];
+    [homeDetailVC setUrlStr:model.newsLink];
+    [self.navigationController pushViewController:homeDetailVC animated:YES];
     
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
+
 #pragma mark - UITableView dataSource
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *cellIde=@"cellIde";

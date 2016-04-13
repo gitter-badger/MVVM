@@ -9,6 +9,7 @@
 #import "HomeTableViewCell.h"
 #import "UIView+Utils.h"
 #import "Define.h"
+#import "UIImageView+WebCache.h"
 
 @interface HomeTableViewCell()
 
@@ -94,7 +95,7 @@
 
 - (void)loadViewData{
     //图片
-    [self.newsImageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_data.newsImage]]]];
+    [self.newsImageView sd_setImageWithURL:[NSURL URLWithString:_data.newsImage] placeholderImage:[UIImage imageNamed:@"tu_empty"]];
     //标题
     [self.newsTitleLabel setText:_data.newsTitle];
     //来源
