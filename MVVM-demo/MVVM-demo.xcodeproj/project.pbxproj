@@ -41,6 +41,8 @@
 		C1C366491CBE1F9A00ACA020 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C366391CBE1F9A00ACA020 /* UIView+WebCacheOperation.m */; };
 		C1C3664D1CBE202400ACA020 /* tu_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3664B1CBE202400ACA020 /* tu_empty@2x.png */; };
 		C1C3664E1CBE202400ACA020 /* tu_empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C3664C1CBE202400ACA020 /* tu_empty@3x.png */; };
+		C1C366AF1CBE2DB900ACA020 /* navigationbar_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C366AD1CBE2DB900ACA020 /* navigationbar_setting@2x.png */; };
+		C1C366B01CBE2DB900ACA020 /* navigationbar_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C366AE1CBE2DB900ACA020 /* navigationbar_setting@3x.png */; };
 		C1FB2B7B1CBCEBDA003CA31E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FB2B7A1CBCEBDA003CA31E /* main.m */; };
 		C1FB2B7E1CBCEBDA003CA31E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FB2B7D1CBCEBDA003CA31E /* AppDelegate.m */; };
 		C1FB2B861CBCEBDA003CA31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FB2B851CBCEBDA003CA31E /* Assets.xcassets */; };
@@ -139,6 +141,8 @@
 		C1C366391CBE1F9A00ACA020 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		C1C3664B1CBE202400ACA020 /* tu_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_empty@2x.png"; sourceTree = "<group>"; };
 		C1C3664C1CBE202400ACA020 /* tu_empty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_empty@3x.png"; sourceTree = "<group>"; };
+		C1C366AD1CBE2DB900ACA020 /* navigationbar_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_setting@2x.png"; sourceTree = "<group>"; };
+		C1C366AE1CBE2DB900ACA020 /* navigationbar_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_setting@3x.png"; sourceTree = "<group>"; };
 		C1FB2B761CBCEBDA003CA31E /* MVVM-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FB2B7A1CBCEBDA003CA31E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1FB2B7C1CBCEBDA003CA31E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -324,10 +328,19 @@
 		C1C3664A1CBE202400ACA020 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1C366AD1CBE2DB900ACA020 /* navigationbar_setting@2x.png */,
+				C1C366AE1CBE2DB900ACA020 /* navigationbar_setting@3x.png */,
 				C1C3664B1CBE202400ACA020 /* tu_empty@2x.png */,
 				C1C3664C1CBE202400ACA020 /* tu_empty@3x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1C3664F1CBE263100ACA020 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		C1FB2B6D1CBCEBDA003CA31E = {
@@ -349,8 +362,8 @@
 		C1FB2B781CBCEBDA003CA31E /* MVVM-demo */ = {
 			isa = PBXGroup;
 			children = (
-				C1C3664A1CBE202400ACA020 /* Resources */,
 				C11649771CBDF408009EF8DC /* 效果图.png */,
+				C1C3664A1CBE202400ACA020 /* Resources */,
 				C1FB2BB01CBCFB90003CA31E /* 3rd */,
 				C1FB2B931CBCEF52003CA31E /* Main */,
 				C1FB2B921CBCECA0003CA31E /* Model */,
@@ -411,6 +424,7 @@
 		C1FB2B931CBCEF52003CA31E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C1C3664F1CBE263100ACA020 /* Tools */,
 				C11649731CBDE698009EF8DC /* Utils */,
 				C1FB2B941CBCEFEA003CA31E /* NetWork(网络) */,
 				C1FB2BA61CBCF23A003CA31E /* Define.h */,
@@ -572,10 +586,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C11649781CBDF408009EF8DC /* 效果图.png in Resources */,
+				C1C366B01CBE2DB900ACA020 /* navigationbar_setting@3x.png in Resources */,
 				C1FB2B861CBCEBDA003CA31E /* Assets.xcassets in Resources */,
 				C1C3664E1CBE202400ACA020 /* tu_empty@3x.png in Resources */,
 				C1FB2BA91CBCF402003CA31E /* LaunchScreen.storyboard in Resources */,
 				C1C3664D1CBE202400ACA020 /* tu_empty@2x.png in Resources */,
+				C1C366AF1CBE2DB900ACA020 /* navigationbar_setting@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

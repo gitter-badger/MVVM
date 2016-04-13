@@ -7,13 +7,14 @@
 //
 
 #import "HomeTableView.h"
+#import "Define.h"
 
 @implementation HomeTableView
 
 -(instancetype)initWithFrame:(CGRect)frame{
     self=[super initWithFrame:frame];
     if (self) {
-        
+        [self setBackgroundColor:kAppMainBgColor];
     }
     return self;
 }

@@ -30,10 +30,18 @@
     
     self.dataArr=[NSMutableArray array];
     
+    [self configNav];
     //布局View
     [self setUpView];
     //数据处理
     [self dataAccess];
+}
+
+- (void)configNav{
+    UIButton *settingBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [settingBtn setFrame:CGRectMake(0.0, 0.0, 23.0, 23.0)];
+    [settingBtn setImage:[UIImage imageNamed:@"navigationbar_setting"] forState:UIControlStateNormal];
+    [self.navigationItem setRightBarButtonItem:[[UIBarButtonItem alloc]initWithCustomView:settingBtn]];
 }
 
 #pragma mark - setUpView

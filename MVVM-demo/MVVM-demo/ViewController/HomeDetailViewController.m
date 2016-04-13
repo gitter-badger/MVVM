@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setTitle:_navTitle];
-    [self.view setBackgroundColor:kAppWhiteColor];
+    [self.view setBackgroundColor:kAppMainBgColor];
     
     [self.view addSubview:self.homeDetailView];
 }
@@ -31,6 +31,8 @@
     if (!_homeDetailView) {
         _homeDetailView=[[HomeDetailView alloc]initWithFrame:self.view.bounds];
         [_homeDetailView setDelegate:self];
+        NSURLRequest *request=[NSURLRequest requestWithURL:[NSURL URLWithString:_urlStr]];
+        [_homeDetailView loadRequest:request];
     }
     return _homeDetailView;
 }
