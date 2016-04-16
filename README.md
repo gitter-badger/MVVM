@@ -1,5 +1,5 @@
 #MVVM
-![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667) <a href="https://github.com/shenAlexy/MVVM/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
+![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667) <a href="https://github.com/shenAlexy/MVVM/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a> <a href="https://twitter.com/shenguanhua11"><img src="https://img.shields.io/badge/twitter-@shenguanhua11-blue.svg?style=flat"></a>
 
 ## Requirements
 - iOS 8.0+ / Mac OS X 10.9+
