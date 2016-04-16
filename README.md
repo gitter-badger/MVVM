@@ -23,15 +23,18 @@ MVVM是基于胖Model的架构思路建立的，然后在胖Model中拆出两部
 
 ##源码解析：
 1、首先是model层的代码，基于JSONModel封装了BaseModel类(基类: 以后的Model都可继承此类)，继承自BaseModel，实现HomeModel类。
+![image](https://github.com/shenAlexy/MVVM/blob/master/1.png)
 
 2、然后是View层的代码，View层控件全部用懒加载方式，尽可能减少内存消耗；不喜欢用XIB，所以习惯纯代码编写。
+![image](https://github.com/shenAlexy/MVVM/blob/master/2.png)
 
 3、接下来看ViewModel层，对封装好的NetWork进行处理，request网络数据存储在HomeModel里，最后将数据用Block带出去，方便在VC中使用数据，reloadData。
+![image](https://github.com/shenAlexy/MVVM/blob/master/3.png)
 
 4、最终，HomeViewController 将会变得非常轻量级：
+![image](https://github.com/shenAlexy/MVVM/blob/master/4.png)
     
-    
-怎么样？其实 MVVM 并没有想像中的那么难吧，而且更重要的是它也没有破坏 MVC 的现有结构，只不过是移动了一些代码，仅此而已。总结下 MVVM 相比 MVC 到底有哪些好处呢？
+ MVVM并没有想像中的那么难，而且更重要的是它也没有破坏 MVC 的现有结构，只不过是移动了一些代码，仅此而已。总结下 MVVM 相比 MVC 到底有哪些好处呢？
 
 我想，主要可以归纳为以下三点：
 
@@ -49,5 +52,6 @@ MVVM是基于胖Model的架构思路建立的，然后在胖Model中拆出两部
  
 #联系我
 微信公众号：iOSDevTeam
+Email: shenguanhua123@gmail.com
   
   
