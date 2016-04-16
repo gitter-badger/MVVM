@@ -1,5 +1,5 @@
 # MVVM
-![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master)
+![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667)
 
 一个iOS头条APP，使用MVVM架构实现，代码中有注释，封装了AFN网络请求，解媾代码，使用起来非常方便。用最经典的TableView展示，后续不断更新，喜欢就star或fork一下，有问题或者建议意见就issues！
 
