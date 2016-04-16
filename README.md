@@ -1,5 +1,4 @@
-![image](https://github.com/shenAlexy/MVVM/blob/master/MVVM.jpg)
-
+#MVVM
 ![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667) <a href="https://github.com/shenAlexy/MVVM/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
 
 ## Requirements
@@ -12,6 +11,8 @@
 本例基于AFN封装了网络请求系列库，以满足自己需求，后期易于扩展；使用JSONModel解析json数据；每个VC都有自己的ViewModel类用来处理网络请求和其他逻辑处理；使用经典的UITableView展示MVVM架构，适合初学MVVM的coder参考。
     
 ##简介：
+![image](https://github.com/shenAlexy/MVVM/blob/master/MVVM.jpg)
+
 MVVM的出现主要是为了解决在开发过程中Controller越来越庞大的问题，变得难以维护，所以MVVM把数据加工的任务从Controller中解放了出来，使得Controller只需要专注于数据调配的工作，ViewModel则去负责数据加工并通过通知机制让View响应ViewModel的改变。
 
 MVVM是基于胖Model的架构思路建立的，然后在胖Model中拆出两部分：Model和ViewModel。ViewModel本质上算是Model层（因为是胖Model里面分出来的一部分），所以View并不适合直接持有ViewModel，因为ViewModel有可能并不是只服务于特定的一个View，使用更加松散的绑定关系能够降低ViewModel和View之间的耦合度。
