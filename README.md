@@ -1,9 +1,13 @@
 # MVVM
 ![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667) <a href="https://github.com/shenAlexy/MVVM/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a>
 
-一个iOS头条APP，使用MVVM架构实现，代码中有注释，封装了AFN网络请求，解媾代码，使用起来非常方便。用最经典的TableView展示，后续不断更新，喜欢就star或fork一下，有问题或者建议意见就issues！
+## Requirements
+- iOS 8.0+ / Mac OS X 10.9+
+- Xcode 7.3+
 
 ##前言：
+一个iOS头条APP，使用MVVM架构实现，代码中有注释，封装了AFN网络请求，解媾代码，使用起来非常方便。用最经典的TableView展示，后续不断更新，喜欢就star或fork一下，有问题或者建议意见就issues！
+
 本例基于AFN封装了网络请求系列库，以满足自己需求，后期易于扩展；使用JSONModel解析json数据；每个VC都有自己的ViewModel类用来处理网络请求和其他逻辑处理；使用经典的UITableView展示MVVM架构，适合初学MVVM的coder参考。
     
 ##简介：
