@@ -56,6 +56,7 @@ MVVM是基于胖Model的架构思路建立的，然后在胖Model中拆出两部
  
 #联系我
 微信公众号：iOSDevTeam
+
 Email: shenguanhua123@gmail.com
   
   
