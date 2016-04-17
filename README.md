@@ -1,4 +1,6 @@
 #MVVM 
+
+[![Join the chat at https://gitter.im/shenAlexy/MVVM](https://badges.gitter.im/shenAlexy/MVVM.svg)](https://gitter.im/shenAlexy/MVVM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 MVVM architecture of a practice, rewrite the iOS headlines for the client（MVVM架构的一次实践，重写iOS头条客户端）
 
 ![image](https://travis-ci.org/shenAlexy/MVVM.svg?branch=master) ![image](https://camo.githubusercontent.com/72a3664b1de5fe08005f3a09a86b1fd77bc86633/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d694f53253230382e302532422d6666363962342e737667) <a href="https://github.com/shenAlexy/MVVM/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat"></a> <a href="https://twitter.com/shenguanhua11"><img src="https://img.shields.io/badge/twitter-@shenguanhua11-blue.svg?style=flat"></a>
